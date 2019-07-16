@@ -12,7 +12,7 @@ app.post('/usuarios',(req,resp)=>{
 app.post('/usuarios/:id',(req,resp)=>{
     console.log(req.params.id)
     console.log(req.body)
-    resp.send('<h1>Parabéns. Usuario Alteradao!<h1>')
+    resp.send('<h1>Parabéns. Usuario Alterado!<h1>')
 })
 
 app.listen(3003)
