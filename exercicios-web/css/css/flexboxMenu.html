@@ -13,20 +13,33 @@
         }
         
         .cabecalho {
+            display: flex;
             background: #333;
             color: #fff;
             border-bottom: solid 5px #4faddb;
             height: 80px;
+            align-items: center;
+            justify-content: space-between;
         }
         
         .logo img {
             height: 50px;
+            
+        }
+
+        .menu{
+            flex-grow: 10;
         }
         
         .menu ul {
             list-style: none;
+            display: flex;
             margin: 0;
             padding: 0;
+        }
+        
+        .menu li{
+            margin: 0px 10px;
         }
         
         .cabecalho a {
@@ -51,9 +64,12 @@
             background: #f50a31;
             color: #fff;
         }
-        /* ==================== */
-        /* Solução com Flex Box */
-        /* ==================== */
+
+        .autenticacao{
+            justify-content: flex-end;
+        }
+        
+
     </style>
 </head>
 
