@@ -1,5 +1,9 @@
 body {
-  background-color: #444; }
+  background-color: #444;
+  background-image: url(ac56a0123323107b92b5af2559ccf44e.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; }
 
 .botao {
   background-color: #19B3E6;
